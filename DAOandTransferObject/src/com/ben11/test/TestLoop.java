@@ -6,7 +6,7 @@ public class TestLoop {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		for(int x=1; x<11; x++ )
+		for(int x=1; x<=10; x++ )
 			System.out.println("Ben: " + x);		
 		System.out.println("Sum of 10 series is:" +sumSeries(10));
 	}
